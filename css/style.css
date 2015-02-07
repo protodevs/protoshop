@@ -11,6 +11,7 @@ ul {
 }
 .error {
   color: #FF0000;
+  font-family: Roboto Condensed, sans-serif;
 }
 .focused {
   background-color: #66CCCC;
