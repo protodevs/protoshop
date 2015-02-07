@@ -13,6 +13,7 @@ ul {
   color: #FF0000;
   font-family: Roboto Condensed, sans-serif;
 }
-.focused {
+.focused, input:hover {
   background-color: #66CCCC;
 }
+.
