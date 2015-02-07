@@ -1,0 +1,17 @@
+.btn {
+  background-color: #696969;
+}
+.btn:hover {
+  background-color: #989898;
+}
+ul {
+  font-size: 48px;
+  font-family: Roboto Condensed, sans-serif;
+  margin: 8px;
+}
+.error {
+  color: #FF0000;
+}
+.focused {
+  background-color: #66CCCC;
+}
