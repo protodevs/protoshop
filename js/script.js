@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 $("#content").delegate("*", "focus blur", function() {
 	var elem = $(this);
 	setTimeout(function() {
 		elem.toggleClass("focused", elem.is(":focus"));
 	}, 0);
+=======
+$("#content").delegate( "*", "focus blur", function() {
+  var elem = $( this );
+  setTimeout(function() {
+    elem.toggleClass( "focused", elem.is( ":focus" ) );
+  }, 0 );
+>>>>>>> 58e7931e26f7d274c9d14bbec6aea7b98d48b365
 });
 
 function printest() {
