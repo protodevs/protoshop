@@ -3,17 +3,23 @@
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
 	<title>Test</title>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-latest.min.js"></script>
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
 	<div id="content">
-		<input type="text" autofocus="true" />
-		<button onclick="submit()" class="btn">Submit</button>
-		<button onclick="startnew()" class="btn">New list</button>
-		<button onclick="printest();" class="btn">Print your list</button>
-		<ul>List:</ul>
+        <form>
+		    <input type="text" autofocus="true" />
+		    <input type="submit" class="btn" value="Submit">
+            <button id="new" type="button" class="btn">New list</button>
+            <button id="print" type="button" class="btn">Print your list</button>
+            <button id="save" type="button" class="btn">Save List</button>
+            <button id="load" type="button" class="btn">Load List</button>
+        </form>
+        <h1 class='error'></h1>
+        <h2>List:</h2>
+		<ul></ul>
 	</div>
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
